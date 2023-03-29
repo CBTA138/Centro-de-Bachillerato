@@ -1,0 +1,113 @@
+ body { font-family: Verdana,Arial,sans-serif;
+   
+  }
+    h1 { margin-left: 80px;
+      margin-top: 20px;
+      font-size: 180%;
+      color: #1b7743; }
+    h2, h3 ¿¿{ font-family: Georgia, Times, serif;
+      text-align: center;
+      font-size: 150%;
+      color: #1b7743;
+      margin-top: 0;
+      margin-left: 30px;}
+    p {
+      font-size: 180%;
+      line-height: 1.5em;
+      text-indent: 15px; 
+      font-weight: normal;
+      margin: 35px;}
+      img { border: 2px solid #1b7743;
+    margin: 10px;
+    width: 60%;
+    height: 60%;
+  }
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  font-family: Helvetica;
+  width: 1100px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+  position: fixed;
+}
+#menu li>a{
+  background-color:#1b7743;
+  color: white;
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+  font-weight: bold;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #85fda9;
+}
+#menu>li{
+  float: left;
+  text-align:center;
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+a{
+ color: #1b7743;
+  text-decoration:none;
+  display: block;     
+  padding: 2px;
+    font-weight: bold;
+  }
+  div{
+  font-size: 80%;
+  text-align: center;
+  }
+
+.slider-frame {
+    width: 1280px;
+    height: auto;
+    margin:50px auto 0;
+    overflow: auto;
+}
+
+.slider-frame div {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    
+    animation: slide 25s infinite;
+}
+
+.slider-frame li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider-frame img {
+    width: 94%;
+}
+
+@keyframes slide {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+    
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+    
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+    
+    75% {margin-left: -300%;}
+  }
+  iframe{
+    width: 65%;
+    height: 80%;
+  }
